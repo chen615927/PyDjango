@@ -1,6 +1,4 @@
-Test a
-====
+说明
+===
 
-Python Django 
-
-自学实例
+1. 建立全局的 url 管理，settings管理；把model下的settings.py称到manage.py同级。
