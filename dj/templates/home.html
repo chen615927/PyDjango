@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}django{% endblock %}
+
+{% block content %}
+  <span>chen ping</span>
+  <div>{{ name }}</div>
+  {% url 'home' 2012 %}
+  {% include 'news.html' with name='zhao' only %}
+{% endblock %}
